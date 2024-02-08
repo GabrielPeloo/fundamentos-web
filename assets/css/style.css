@@ -1,0 +1,36 @@
+/* Estilos da página index.html */
+
+.center{
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 30px;
+    font-size: 30px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: blue;
+}
+#menu li a:hover{
+    
+    color: red;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
